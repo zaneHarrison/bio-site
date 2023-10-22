@@ -1,7 +1,9 @@
+import ListTitle from "@/components/ListTitle";
+
 export default function Home() {
   return (
     <div id="main-content">
-      <h1>Hello!</h1>
+      <ListTitle />
       <p>test</p>
     </div>
   );
