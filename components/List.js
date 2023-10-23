@@ -43,14 +43,6 @@ export default function List() {
       name: "Avocados",
       quantity: 2,
     },
-    {
-      name: "Chocolate",
-      quantity: 1,
-    },
-    {
-      name: "Beer",
-      quantity: 12,
-    },
   ];
 
   return (
