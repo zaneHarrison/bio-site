@@ -1,0 +1,8 @@
+.list {
+  background-color: white;
+  width: 60%;
+  height: 65vh;
+  margin: auto;
+  border: 3px solid rgb(50, 40, 141);
+  border-radius: 20px;
+}
