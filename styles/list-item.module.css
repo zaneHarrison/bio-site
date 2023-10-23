@@ -2,10 +2,7 @@
   border-bottom: 2px solid black;
   font-weight: bold;
   display: flex;
-}
-
-.list-item-text {
-  margin-left: 40px;
+  justify-content: center;
 }
 
 .label {
