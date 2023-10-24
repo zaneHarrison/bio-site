@@ -10,28 +10,28 @@ This is a Next.js site built by Zane Harrison for a JavaScript + React introduct
 4. Navigate to the directory in which you want your project to live
 5. Run “git clone \_\_\_” with the copied link in the blank
 6. In your terminal, cd into the newly created repository
-7. Run this command to install Node version manager:
+7. Run this command to install Node version manager (NVM):
 
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 ```
 
-8. Run
+8. Run the command:
 
 ```bash
-“nvm install node”
+nvm install node
 ```
 
-9. Run
+9. Run the command:
 
 ```bash
-“npm install”
+npm install
 ```
 
-10. Run
+10. Run the command:
 
 ```bash
-“npm run dev”
+npm run dev
 ```
 
 11. Open http://localhost:3000/ in a browser window to view the site
