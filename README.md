@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## About This Project
+
+This is a Next.js site built by Zane Harrison for a JavaScript + React introduction workshop associated with Duke Catalyst.
 
 ## Getting Started
 
-First, run the development server:
+1. In this repository, click “Fork”. Uncheck the checkbox that says “Only fork main branch”. Click “Create fork”
+2. In your forked repository, click the green button that says “Code”, click “HTTPS”, and copy the link
+3. Open a terminal window
+4. Navigate to the directory in which you want your project to live
+5. Run “git clone \_\_\_” with the copied link in the blank
+6. In your terminal, cd into the newly created repository
+7. Run this command to install Node version manager:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+8. Run
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+“nvm install node”
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+9. Run
 
-## Learn More
+```bash
+“npm install”
+```
 
-To learn more about Next.js, take a look at the following resources:
+10. Run
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+“npm run dev”
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+11. Open http://localhost:3000/ in a browser window to view the site
 
-## Deploy on Vercel
+## Tracking Your Changes Using GitHub
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you want to save the changes you’ve made to your version of the site, you need to push your local repository to your remote repository, which is the GitHub repository that you forked. To do so, follow these steps:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Go to your GitHub settings and click “Developer settings” at the bottom of the left panel
+2. Click “Personal access tokens” → “Tokens (classic)” → “Generate new token”
+3. Check all the boxes to grant your token access to all scopes
+4. Click “Generate token”
+5. Copy the token link and save it somewhere
+6. When pushing to Git, use this token in place of your password for authentication
