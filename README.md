@@ -22,17 +22,23 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 nvm install node
 ```
 
+to install Node.js
+
 9. Run the command:
 
 ```bash
 npm install
 ```
 
+to install the project dependencies
+
 10. Run the command:
 
 ```bash
 npm run dev
 ```
+
+to start the development server. It can be stopped with ctrl + C
 
 11. Open http://localhost:3000/ in a browser window to view the site
 
