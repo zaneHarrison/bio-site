@@ -1,6 +1,8 @@
 ## About This Project
 
 This is a Next.js site built by Zane Harrison for a JavaScript + React introduction workshop associated with Duke Catalyst.
+The site contains an empty list, and workshop attendees are tasked with creating list data as well as a list item component to fill in the list.
+_Note_ that the "main" branch consists of the starter template for the workshop (the empty list), and the "sample-site" branch provides a sample "solution" to the workshop assignment (a filled-in list).
 
 ## Getting Started
 
